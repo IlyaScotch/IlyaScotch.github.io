@@ -13,8 +13,7 @@ nav{
     font-size: 28px;
     line-height: 60px;
     padding-left: 388px;
-    float: left;
-    
+    float: left; 
 }
 
 .menu{
@@ -117,6 +116,7 @@ nav{
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto auto;
+    height: 600px;
 }
 
 .skills img{
@@ -160,48 +160,411 @@ nav{
 }
 
 .skill2{
-    padding-left: 30px;
+    padding-left: 80px;
     float: left;
     text-align: center;
-    width: 400px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .skill3{
-    padding-left: 30px;
+    padding-left: 80px;
     padding-right: 80px;
     float: left;
     text-align: center;
-    width: 490px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .skill4{
+    padding-left: 60px;
+    float: left;
     text-align: center;
-    width: 1200px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .cases h3{
+    font-weight: bold;
     text-align: center;
+    color: #263244;
     border-bottom: 4px solid orange;
-    width: 40px;
-    padding-bottom: 31px;
-    
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+.cases_p1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Calibri;
+}
+
+.cases img{
+    margin-left: 391px;
+    margin-right: 362px;
+    margin-bottom: 41px;
+}
+
+.cases1 h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cases1 h5{
+    margin-bottom: 15px;
+}
+
+.cases1{
+    margin-left: 391px;
+    margin-right: 82px;
+    float: left;
+}
+
+.cases2{
+    margin-left: 100px;
+    width: 1460px;
+   
+}
+
+.cases2 h4{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.visit input{
+    color: white;
+    text-align:center;
+    margin: 50px 1330px 200px 390px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    padding: 15px 42px 15px;
+    background-color: #63b5ae;
+    font-weight: bold;
+}
+
+.prace h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #1c2534;
+    font-size: 30px;
+}
+
+.prace h3{
+    margin: 60px 1207px 22px 498px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.prace select{
+    margin-left: 498px;
+    margin-right: 536px;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    background-color: #eeeeee;
+    padding: 22px 0px 22px 32px;
+    color: #737373;
+    font-size: 17px;
+    width: 892px;
+}
+
+.deadline{
+    border-top: 2px solid #737373;
+    margin-top: 35px;
+    margin-left: 498px;
+    width: 892px;
+}
+
+.deadline h4{
+    margin-top: 23px;
+    font-weight: bold;
+    color: #1c2534;
+    font-size: 20px;
+    float: left;
+}
+
+.its0{
+    margin-left: 1380px;
+    width: 900px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+
+.cost{
+    margin-top: 20px;
+    margin-left: 498px;
+    width: 892px;
+}
+
+.cost h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.its00 p{
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 1380px;
+   margin-right: auto;
+    width: 892px;
+    height: 153px;
+}
+
+.statistics{
+    background: url(../img/bg_notebook.png);
+    background-repeat: no-repeat;
+    height: 499px;
+}
+
+.statistics h3{
+    padding-top: 104px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid orange;
+    width: 170px;
+    margin-bottom: 84px;
+}
+
+.happy_client{
+    float: left;
+    margin-right: 156px;
+}
+
+.happy_client img{
+    margin-left: 500px;
+}
+
+.happy_client h4{
+   padding-left: 439px;
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+
+.happy_client p{
+    padding-left: 439px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: bold;
+}
+
+.hours_work{
+    margin-right: 152px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323d4f;
+}
+
+.hours_work h4{
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hours_work p{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: bold;
+}
+
+.project{
+    margin-right: 152px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323d4f;
+}
+
+.project h4{
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+
+.project p{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: bold;
+}
+
+.cup{
+    margin-right: 152px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323d4f;
+}
+
+.cup h4{
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cup p{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #323d4f;
+    font-weight: bold;
+}
+
+.feedback{
+    text-align: center;
+    margin-top: 105px;
+}
+
+.feedback h3{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid orange;
+    width: 70px;
+    margin-bottom: 59px;
+}
+
+.feedback img{
+    margin-bottom: 35px;
+}
+.feedback p{
+    margin-left:auto;
+    margin-right: auto;
+    width: 800px;
+    margin-bottom: 35px;
+}
+
+.feedback h4{
+    margin-bottom: 154px;
+}
+
+.contacts{
+    background: url(../img/bg_contacts.png);
+    background-repeat: no-repeat;
+    height: 810px;
+    color: white;
+    text-align: center;
+}
+
+.contacts h3{
+    padding-top: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid orange;
+    width: 115px;
+    margin-bottom: 32px;
+}
+
+.contacts p{
+    margin-bottom: 48px;
+}
+
+.geowhite {
+    float: left;
+    margin-left: 666px;
+}
+
+.geowhite img{
+    margin-bottom: 16px;
+}
+
+.convert{
+    float: left;
+    margin-right: 115px;
+    margin-left: 112px;
+    text-align: center;
+}
+
+.convert img{
+    margin-bottom: 18px;
+}
+
+.telephone {
+    margin-right: 600px;
     
 }
 
+.telephone img{
+    margin-bottom: 18px;
+}
 
+.telephone p{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
 
+.contacts h4{
+    margin-bottom: 46px;
+    font-weight: bold;
+}
 
+.nametext input{
+    float: left;
+    margin-left: 600px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.8);
+}
 
+.textmail input{
+    margin-right: 580px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+}
 
+.messagetext textarea{
+    padding-top: 10px;
+    padding-left: 13px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    margin-bottom: 27px;
+}
 
+.send input{
+    background: none;
+    color: white;
+    padding: 15px 19px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
 
-
-
-
-
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 46px;
+    height: 92px;
+    background-color: #354051;
+}
