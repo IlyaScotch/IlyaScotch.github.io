@@ -161,6 +161,7 @@ nav{
     background-image: url(../img/skills.png) ;
     background-position: top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 600px;
 }
 
@@ -212,24 +213,9 @@ nav{
 .skills p{
     padding-bottom: 92px;
     color: #3f495a;
-    -webkit-animation: skills_p 2.5s ease forwards;
-    -o-animation: skills_p 2.5s ease forwards;
-    animation: skills_p 2.5s ease forwards;
-    -webkit-animation-delay: 3.9s;
-    -o-animation-delay: 3.9s;
-    animation-delay: 3.9s;
-    opacity: 0;
-}
-
-@keyframes skills_p{
-    from{
-        opacity: 0;
-        margin-left: -500px;
-        
-    }
-    to{
-        opacity: 1;
-    }
+    -webkit-animation-delay: 3.6s;
+    -o-animation-delay: 3.6s;
+    animation-delay: 3.6s;
 }
 
 .name_skills h3{
@@ -493,6 +479,7 @@ nav{
 .statistics{
     background: url(../img/bg_notebook.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 499px;
 }
 
@@ -649,6 +636,7 @@ nav{
 .contacts{
     background: url(../img/bg_contacts.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 810px;
     color: white;
     text-align: center;
@@ -895,4 +883,20 @@ nav{
     }
 }
 
-/* Параллакс эффект*/
+/* Лоудер*/
+
+.loader {
+ margin: auto;
+ width: 75px;
+ height: 75px;
+ border: 10px solid rgba(13, 71, 161, 0.6);
+ border-radius: 50%;
+ border-left-color:#0D47A1;
+ animation: loader 1.3s linear infinite;
+}
+
+@keyframes loader {
+ from {
+  transform: rotate(360deg);
+ }
+}
