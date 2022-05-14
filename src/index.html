@@ -11,6 +11,7 @@
     <title>Илья Scotch- Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     
 </head>
 
@@ -21,23 +22,25 @@
              <div class="logo">Илья Scotch</div>
              <div class="menu">
             <ul>
-                 <li>Обо мне</li>
-                 <li>Услуги</li>
-                 <li>Кейсы</li>
-                 <li>Прайс</li>
-                 <li>Отзывы</li>
-                 <li>Контакты</li>
+                 <li><a href="#">Обо мне</a></li>
+                 <li><a href="#">Услуги</a></li>
+                 <li><a href="#">Кейсы</a></li>
+                 <li><a href="#">Прайс</a></li>
+                 <li><a href="#">Отзывы</a></li>
+                 <li><a href="#">Контакты</a></li>
              </ul></div>
          </nav>
     </header>
    
+  
     <div class="main">
         <div class="title__conteiner">
             <h1>Привет <br>Я Илья Scotch</h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
+            <input type="button" value="Обо мне">
+            <input type="button" value="Мои работы">
         </div></div>
+        
         
         
         <div class="about_me">
@@ -51,8 +54,6 @@
             
             <input type="submit" value="Скачать резюме">
             </div>
-            
-            
             
             
             
@@ -119,7 +120,7 @@
    
    <div class="cases2">
    <h4>Название проекта</h4>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quos quaerat iste totam rem asperiores itaque maiores ipsum? Nemo tempore libero vitae sequi illo, optio excepturi numquam eligendi, quibusdam dolorem quis nobis accusamus iure provident vel repellendus iusto, molestias laborum cupiditate nulla fugiat quae? Delectus id tenetur nam nostrum beatae maxime odit, consectetur dolorum reiciendis repellat!</p>
+   <p class="animate__animated animate__backInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quos quaerat iste totam rem asperiores itaque maiores ipsum? Nemo tempore libero vitae sequi illo, optio excepturi numquam eligendi, quibusdam dolorem quis nobis accusamus iure provident vel repellendus iusto, molestias laborum cupiditate nulla fugiat quae? Delectus id tenetur nam nostrum beatae maxime odit, consectetur dolorum reiciendis repellat!</p>
    </div>
    
    <div class="visit">
@@ -135,7 +136,7 @@
         <h2>Расчет стоимости</h2>
         <h3>ТИП САЙТА</h3>
         
-        <select name="site" id="1">
+        <select name="site" id="site1">
         
         <option value="">Выберите пункт...</option>
         <option value="number1">Какой-то такой сайт</option>
@@ -146,7 +147,7 @@
                                
         <h3>ДИЗАЙН</h3>
         
-        <select name="design" id="">     
+        <select name="design" id="design1">     
              
         <option value="">Выберите пункт...</option>
         <option value="number1">Какой-то такой дизайн</option>
@@ -158,7 +159,7 @@
         
         <h3>АДАПТИВНОСТЬ</h3>
         
-        <select name="adaptability" id="">     
+        <select name="adaptability" id="adaptability1">     
              
         <option value="">Выберите пункт...</option>
         <option value="number1">Какая-то такая адаптивность</option>
@@ -198,7 +199,7 @@
     
     <img src="img/smile.png" alt="Смайл">
     <h4>120</h4>
-    <p>Счастливых клиентов</p>
+    <p class="animate__animated animate__jello">Счастливых клиентов</p>
     
     </div>
     
@@ -206,7 +207,7 @@
         
         <img src="img/signstat.png" alt="Ку-ку">
         <h4>4,600</h4>
-        <p>Часов работы</p>
+        <p class="animate__animated animate__jello">Часов работы</p>
         
     </div>
     
@@ -214,7 +215,7 @@
         
         <img src="img/tick.png" alt="Галочка">
         <h4>340</h4>
-        <p>Проектов завершено</p>
+        <p class="animate__animated animate__jello">Проектов завершено</p>
         
     </div>
     
@@ -222,7 +223,7 @@
         
         <img src="img/cup.png" alt="Кубок">
         <h4>23</h4>
-        <p>Наград получено</p>
+        <p class="animate__animated animate__jello">Наград получено</p>
         
         
     </div>
@@ -247,17 +248,17 @@
        
           <div class="geowhite">
            <img src="img/geowhite.png" alt="Яндекс">
-            <p>Новосибирск <br> Карла Маркса</p>
+            <p class="animate__animated animate__zoomInLeft">Новосибирск <br> Карла Маркса</p>
             </div>
             
             <div class="convert">
             <img src="img/convert.png" alt="Почта">
-            <p>ilya.kolyabin.2013@mail.ru</p>
+            <p class="animate__animated animate__zoomInDown">ilya.kolyabin.2013@mail.ru</p>
             </div>
             
             <div class="telephone">
             <img src="img/telephone.png" alt="Телефон">
-            <p>8-800-555-35-35</p>
+            <p class="animate__animated animate__zoomInRight">8-800-555-35-35</p>
             </div>
             
       <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
@@ -274,7 +275,7 @@
         </div>
         
         <div class="messagetext">
-        <textarea name="message" id="1" cols="95" rows="4" placeholder="Сообщение"></textarea>
+        <textarea name="message" id="message1" cols="95" rows="4" placeholder="Сообщение"></textarea>
         </div>
         
         <div class="send"> 
