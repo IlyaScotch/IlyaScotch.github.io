@@ -7,24 +7,27 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 }
 
 .logo{
+    width: 100%;
     color: white;
     font-size: 28px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
     -webkit-animation: comming 2.5s ease;
     -o-animation: comming 2.5s ease;
     animation: comming 2.5s ease ;
+    font-family: 'Franklin Gothic',sans-serif;
 }
 
 .menu{
     float: left;
-    padding-left: 432px;
+}
 
+.white-btn:visited{
+    color: white;
 }
 
 .menu li{
@@ -32,12 +35,16 @@ nav{
     line-height: 60px;
     color: white;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.5s ease forwards;
     -o-animation: topshift 0.5s ease forwards;
     animation: topshift 0.5s ease forwards;
     opacity: 0;
+}
+
+.menu li a{
+    text-decoration: none;
 }
 
 .main{
@@ -48,9 +55,9 @@ nav{
 
 .title__conteiner{
     float: left;
-    margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    width: 100%;
     opacity: 0;
     -webkit-animation: titlemove 1s ease forwards;
     -o-animation: titlemove 1s ease forwards;
@@ -61,9 +68,9 @@ nav{
 }
 
 .title__conteiner h1{
-    font-size: 60px;
+    font-size: 72px;
     font-weight: bold;
-    
+    font-family: Arial, sans-serif;
 }
 
 
@@ -71,7 +78,6 @@ nav{
     margin-top: 40px;
     font-size: 22px;
     color: #79818d;
-    
 }
 
 .title__conteiner input{
@@ -84,6 +90,30 @@ nav{
     font-size: 13px;
     padding: 0px 16px;
     margin: 58px 14px 0px 14px;
+}
+
+@media (max-width:991px){
+    .title__container, .title__container h4, .title__container input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .main{
+        position: relative;
+    }
+    
+    .title__container input{
+        border: 2px solid #fff;
+    }
+    .main::after{
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4)
+    }
 }
 
 .about_me{
@@ -161,7 +191,6 @@ nav{
     background-image: url(../img/skills.png) ;
     background-position: top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 600px;
 }
 
@@ -302,8 +331,6 @@ nav{
 }
 
 .cases img{
-    margin-left: 391px;
-    margin-right: 362px;
     margin-bottom: 41px;
     -webkit-animation: casesimg 4s ease forwards;
     -o-animation: casesimg 4s ease forwards;
@@ -341,7 +368,6 @@ nav{
 
 .cases2{
     margin-left: 100px;
-    width: 1460px;
 }
 
 .cases2 p{
@@ -358,7 +384,6 @@ nav{
 .visit input{
     color: white;
     text-align:center;
-    margin: 50px 1330px 200px 390px;
     border: 2px solid #63b5ae;
     border-radius: 5px;
     padding: 15px 42px 15px;
@@ -380,7 +405,6 @@ nav{
 }
 
 .prace h3{
-    margin: 60px 1207px 22px 498px;
     font-weight: bold;
     font-size: 20px;
     -webkit-animation: praceh3 3s ease forwards;
@@ -402,8 +426,6 @@ nav{
 }
 
 .prace select{
-    margin-left: 498px;
-    margin-right: 536px;
     text-align: left;
     border: 2px solid #eeeeee;
     background-color: #eeeeee;
@@ -433,7 +455,6 @@ nav{
 .deadline{
     border-top: 2px solid #737373;
     margin-top: 35px;
-    margin-left: 498px;
     width: 892px;
 }
 
@@ -446,7 +467,6 @@ nav{
 }
 
 .its0{
-    margin-left: 1380px;
     width: 900px;
     font-size: 20px;
     font-weight: bold;
@@ -455,9 +475,6 @@ nav{
 
 .cost{
     margin-top: 20px;
-    margin-left: 498px;
-    width: 892px;
-    
 }
 
 .cost h4{
@@ -469,8 +486,6 @@ nav{
 .its00 p{
    font-weight: bold;
    font-size: 20px;
-   margin-left: 1380px;
-   margin-right: auto;
     width: 892px;
     height: 153px;
     
@@ -479,7 +494,6 @@ nav{
 .statistics{
     background: url(../img/bg_notebook.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 499px;
 }
 
@@ -636,7 +650,6 @@ nav{
 .contacts{
     background: url(../img/bg_contacts.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 810px;
     color: white;
     text-align: center;
